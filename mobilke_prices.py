@@ -53,4 +53,4 @@ if submit_button:
     prediction = model.predict(caracteristiques_normalizees)[0]
 
 # Message a affiché indique la classe du téléphone
-    st.success(f"Le modèle prédit que le téléphone appartient à la classe : **{prediction}**")
+    # st.success(f"Le modèle prédit que le téléphone appartient à la classe : **{prediction}**")
